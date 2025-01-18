@@ -4,7 +4,7 @@ import random
 import time
 
 # Step 1: Connect to MongoDB Atlas
-connection_string = "mongodb+srv://<username>:<password>@skillranktraining.0c6c8.mongodb.net/"  
+connection_string = "mongodb+srv://<username>:<password>@databasename.0c6c8.mongodb.net/"  
 client = MongoClient(connection_string)
 db = client["sample_database"]  
 collection = db["sample_collection"]
